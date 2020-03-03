@@ -30,9 +30,10 @@ public class ReadTheData {
 			//System.out.println(r);
 			for(int j=0; j< r.getLastCellNum(); j++)
 			{
-				System.out.println(r.getCell(j).getStringCellValue()+"||");
+				System.out.print(r.getCell(j).getStringCellValue()+"||");
 				
 			}
+			System.out.println();
 		}wb.close();
 
 	}
