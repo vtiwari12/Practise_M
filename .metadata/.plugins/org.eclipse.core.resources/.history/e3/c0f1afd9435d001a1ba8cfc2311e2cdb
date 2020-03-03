@@ -1,0 +1,17 @@
+package Test1.Test1.test2;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import org.apache.poi.ss.usermodel.Workbook;
+
+public class ReadTheData {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		FileInputStream fis = new FileInputStream("C:\\Test1\\Test1.test2\\src\\main\\java\\resources\\Book1.xlsx");
+		Workbook wb =new XSSFWorkbook("fis")
+
+	}
+
+}

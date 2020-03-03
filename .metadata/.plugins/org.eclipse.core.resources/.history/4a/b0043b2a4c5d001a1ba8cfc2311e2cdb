@@ -1,0 +1,23 @@
+package Test1.Test1.test2;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ReadTheData {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		String Sheetname = "Demo";
+		FileInputStream fis = new FileInputStream("C:\\Users\\vtiwari1\\Desktop\\Book1.xlsx");
+		Workbook wb =new XSSFWorkbook("fis");
+		Sheet demo = wb.getSheet(Sheetname);
+		System.out.println(demo.getSheetName());
+
+	}
+
+}
