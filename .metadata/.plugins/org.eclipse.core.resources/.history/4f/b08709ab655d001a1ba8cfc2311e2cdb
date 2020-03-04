@@ -28,8 +28,7 @@ public class ReadTheData {
 		//Row r = demo.getRow(0);
 		Iterator<Row> itr = demo.iterator();
 		Row FirstRow =itr.next();
-		Row SecondRow =itr.next();
-		Iterator<Cell> ce = SecondRow.cellIterator();
+		Iterator<Cell> ce = FirstRow.cellIterator();
 		Cell cellValue = ce.next();
 		Cell cellValue1 = ce.next();
 		System.out.println(cellValue1.getStringCellValue());
