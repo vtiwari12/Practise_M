@@ -46,10 +46,7 @@ public class ReadTheData {
 			}
 			
 			System.out.println();
-			
-		}
-		System.out.println(ls);
-		wb.close();
+		}wb.close();
 
 	}
 
