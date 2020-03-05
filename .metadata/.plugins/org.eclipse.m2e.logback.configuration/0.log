@@ -565,3 +565,7 @@
 2020-03-05 17:26:21,732 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Test1\Test1.test2\src\main\resources
 2020-03-05 17:26:21,733 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-03-05 17:26:21,733 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Test1\Test1.test2\src\test\resources
+2020-03-05 18:14:10,836 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 18:14:10,837 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Test1\Test1.test2\src\main\resources
+2020-03-05 18:14:10,838 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 18:14:10,838 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Test1\Test1.test2\src\test\resources
